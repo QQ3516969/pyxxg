@@ -49,6 +49,7 @@ while 1:
                 break
             except:
                 retry += 1
+               ###0000
 
         # 用etree解析
         selector = etree.HTML(response)
